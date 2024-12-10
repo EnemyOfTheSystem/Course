@@ -1,0 +1,23 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.OrderItem {
+    box-shadow: 0 0 10px #b6b6b6;
+    border-radius: 20px;
+    opacity: 0;
+    animation: fadeIn 1.5s forwards;
+}
+
+.OrderItem:hover {
+    box-shadow: 0 0 10px #f7b6b6;
+    transition: box-shadow 0.3s;
+}

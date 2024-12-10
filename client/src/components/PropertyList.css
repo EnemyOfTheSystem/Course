@@ -1,0 +1,13 @@
+.items-section {
+    position: relative;
+    height: calc(100vh + 30px);
+}
+
+.pagination {
+    width: calc(100% - 15px);
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin-left: 0.4rem !important;
+    bottom: 0;
+}
